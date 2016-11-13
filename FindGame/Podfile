@@ -5,6 +5,7 @@ target 'FindGame' do
   # Comment the next line if you're not using Swift and don't want to use dynam$
   use_frameworks!
   pod 'Firebase/Core'
+  pod 'FBSDKCoreKit', '~> 4.17'
 
   # Pods for FindGame
 
