@@ -52,6 +52,9 @@
 		3FF228911DD7F3F500420CFD /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2288F1DD7F3F500420CFD /* JSON.swift */; };
 		3FF228921DD7F3F500420CFD /* PublicArt.json in Resources */ = {isa = PBXBuildFile; fileRef = 3FF228901DD7F3F500420CFD /* PublicArt.json */; };
 		3FFFE78B1CF5652300855CAD /* MGSchedulingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFFE78A1CF5652300855CAD /* MGSchedulingViewController.swift */; };
+		464EBDB91DD82A5900B41A3C /* GoogleService-Info (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = 464EBDB81DD82A5900B41A3C /* GoogleService-Info (2).plist */; };
+		7EEA6AD71C9827BD2A1A996B /* Pods_FindGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F248674911B4195BF5DD0DD8 /* Pods_FindGame.framework */; };
+		CFCF1B1A0C9AFAF836BAEC47 /* Pods_FindGameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B726D587A74466D89F852D9 /* Pods_FindGameTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B726D587A74466D89F852D9 /* Pods_FindGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F2DE3851CF100B7002E0AB5 /* FindGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F2DE3881CF100B7002E0AB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F2DE38A1CF100B7002E0AB5 /* LogInSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInSignUpViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +118,12 @@
 		3FF2288F1DD7F3F500420CFD /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 		3FF228901DD7F3F500420CFD /* PublicArt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PublicArt.json; sourceTree = "<group>"; };
 		3FFFE78A1CF5652300855CAD /* MGSchedulingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGSchedulingViewController.swift; sourceTree = "<group>"; };
+		464EBDB81DD82A5900B41A3C /* GoogleService-Info (2).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (2).plist"; sourceTree = "<group>"; };
+		7CF91A91219ED77593296B07 /* Pods-FindGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindGameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindGameTests/Pods-FindGameTests.release.xcconfig"; sourceTree = "<group>"; };
+		861514714CD162BD1E0D5199 /* Pods-FindGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindGameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindGameTests/Pods-FindGameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4C659F0F8B11766D23F501C /* Pods-FindGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindGame/Pods-FindGame.debug.xcconfig"; sourceTree = "<group>"; };
+		C6C171179D6720BB74E04EAE /* Pods-FindGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindGame/Pods-FindGame.release.xcconfig"; sourceTree = "<group>"; };
+		F248674911B4195BF5DD0DD8 /* Pods_FindGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +133,7 @@
 			files = (
 				3FF2288C1DD7F25300420CFD /* CoreLocation.framework in Frameworks */,
 				3FF228871DD7EF2E00420CFD /* MapKit.framework in Frameworks */,
+				7EEA6AD71C9827BD2A1A996B /* Pods_FindGame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,12 +141,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFCF1B1A0C9AFAF836BAEC47 /* Pods_FindGameTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A913BA78C80CB7CD405F62B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F248674911B4195BF5DD0DD8 /* Pods_FindGame.framework */,
+				2B726D587A74466D89F852D9 /* Pods_FindGameTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10803D17C13790D56558A9B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4C659F0F8B11766D23F501C /* Pods-FindGame.debug.xcconfig */,
+				C6C171179D6720BB74E04EAE /* Pods-FindGame.release.xcconfig */,
+				861514714CD162BD1E0D5199 /* Pods-FindGameTests.debug.xcconfig */,
+				7CF91A91219ED77593296B07 /* Pods-FindGameTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3F2DE37C1CF100B7002E0AB5 = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +176,8 @@
 				3F2DE3871CF100B7002E0AB5 /* FindGame */,
 				3F2DE39F1CF100B7002E0AB5 /* FindGameTests */,
 				3F2DE3861CF100B7002E0AB5 /* Products */,
+				10803D17C13790D56558A9B9 /* Pods */,
+				0A913BA78C80CB7CD405F62B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,6 +193,7 @@
 		3F2DE3871CF100B7002E0AB5 /* FindGame */ = {
 			isa = PBXGroup;
 			children = (
+				464EBDB81DD82A5900B41A3C /* GoogleService-Info (2).plist */,
 				3FF228881DD7EF8F00420CFD /* EventList */,
 				3FEA9D9E1D2B1B3C00D266BC /* photo-frame.png */,
 				3FEA9D9F1D2B1B3C00D266BC /* white_chocolate_donut.jpg */,
@@ -230,9 +265,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F2DE3A51CF100B7002E0AB5 /* Build configuration list for PBXNativeTarget "FindGame" */;
 			buildPhases = (
+				7D0C581620E7FCD6437C95D5 /* [CP] Check Pods Manifest.lock */,
 				3F2DE3811CF100B7002E0AB5 /* Sources */,
 				3F2DE3821CF100B7002E0AB5 /* Frameworks */,
 				3F2DE3831CF100B7002E0AB5 /* Resources */,
+				4E266E900CD5A76944489B56 /* [CP] Embed Pods Frameworks */,
+				050CC0A54A7D9C24FCE2AACB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,9 +285,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F2DE3A81CF100B7002E0AB5 /* Build configuration list for PBXNativeTarget "FindGameTests" */;
 			buildPhases = (
+				916DAB379F48B03F29866CA3 /* [CP] Check Pods Manifest.lock */,
 				3F2DE3981CF100B7002E0AB5 /* Sources */,
 				3F2DE3991CF100B7002E0AB5 /* Frameworks */,
 				3F2DE39A1CF100B7002E0AB5 /* Resources */,
+				82E6AAA1437A0D4ECFB04249 /* [CP] Embed Pods Frameworks */,
+				AEB94F4BCACC20D2DE5D0F66 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -326,6 +367,7 @@
 				3FEA9DB61D2B1B3C00D266BC /* full_breakfast.jpg in Resources */,
 				3F2DE3961CF100B7002E0AB5 /* LaunchScreen.storyboard in Resources */,
 				3F2DE3931CF100B7002E0AB5 /* Assets.xcassets in Resources */,
+				464EBDB91DD82A5900B41A3C /* GoogleService-Info (2).plist in Resources */,
 				3F2DE38E1CF100B7002E0AB5 /* Main.storyboard in Resources */,
 				3FEA9DBD1D2B1B3C00D266BC /* green_tea.jpg in Resources */,
 				3FEA9DBC1D2B1B3C00D266BC /* angry_birds_cake.jpg in Resources */,
@@ -344,6 +386,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		050CC0A54A7D9C24FCE2AACB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindGame/Pods-FindGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E266E900CD5A76944489B56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindGame/Pods-FindGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D0C581620E7FCD6437C95D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		82E6AAA1437A0D4ECFB04249 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindGameTests/Pods-FindGameTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		916DAB379F48B03F29866CA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AEB94F4BCACC20D2DE5D0F66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindGameTests/Pods-FindGameTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3F2DE3811CF100B7002E0AB5 /* Sources */ = {
@@ -497,6 +632,7 @@
 		};
 		3F2DE3A61CF100B7002E0AB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4C659F0F8B11766D23F501C /* Pods-FindGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -510,6 +646,7 @@
 		};
 		3F2DE3A71CF100B7002E0AB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6C171179D6720BB74E04EAE /* Pods-FindGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -523,6 +660,7 @@
 		};
 		3F2DE3A91CF100B7002E0AB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 861514714CD162BD1E0D5199 /* Pods-FindGameTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FindGameTests/Info.plist;
@@ -535,6 +673,7 @@
 		};
 		3F2DE3AA1CF100B7002E0AB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CF91A91219ED77593296B07 /* Pods-FindGameTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FindGameTests/Info.plist;
